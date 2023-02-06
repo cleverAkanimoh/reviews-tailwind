@@ -27,14 +27,14 @@
     background-color: #ffffff;
     display: grid;
     place-items: center;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
 }
 
 .reviews__text {
     text-align: left;
     width: 93%;
-    margin: 0.5rem 0 1.7rem;
+    margin: 0.5rem 0rem;
     color: #000000;
     font: bolder 1.305rem sans-serif;
 }
@@ -45,10 +45,6 @@
     height: 360px;
     border: 1px solid #dfdfdf;
     border-radius: 0.4rem;
-}
-
-.reviews_boxes:not(:last-child) {
-    margin-bottom: 25px;
 }
 
 .stay__up {
@@ -112,16 +108,12 @@
 
 @media screen and (min-width: 768px) {
     .reviews__div_container {
-        width: 97%;
-
+        /* width: 100%; */
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .reviews__text {
         grid-column: span 2;
-    }
-
-    .reviews_boxes:not(:last-child) {
-        margin: 0;
     }
 
     .stay__up_para {
