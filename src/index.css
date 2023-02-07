@@ -82,6 +82,15 @@
     translate: -50%;
 }
 
+@media screen and (max-width: 450px) {
+    .stay__down {
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        translate: -100%;
+    }
+}
+
 .stay__down__h3 {
     color: #444;
     font: 600 1rem Poppins, sans-serif;
