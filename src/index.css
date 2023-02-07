@@ -25,9 +25,10 @@
     border: 1px solid #dfdfdf8e;
     border-radius: 0.4rem;
     background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
 }
 
 .reviews__text {
@@ -112,17 +113,14 @@
 @media screen and (min-width: 768px) {
     .reviews__div_container {
         width: 97%;
-        display: grid;
-        place-items: center;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
+
     }
 
     .reviews__text {
         grid-column: span 2;
     }
 
-    .reviews_boxes {
+    .reviews_boxes:not(:last-child) {
         margin: 0;
     }
 
