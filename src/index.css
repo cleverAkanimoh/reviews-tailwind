@@ -34,7 +34,7 @@
 
 .reviews__text {
     text-align: left;
-    width: 90%;
+    width: 98%;
     margin: 0.5rem 0rem;
     color: #000000;
     font: bolder 1.305rem Poppins, sans-serif;
@@ -84,10 +84,7 @@
 
 @media screen and (max-width: 450px) {
     .stay__down {
-        position: absolute;
-        bottom: 10%;
-        left: 50%;
-        translate: -100%;
+        -webkit-transform:translateX(-50%);
     }
 }
 

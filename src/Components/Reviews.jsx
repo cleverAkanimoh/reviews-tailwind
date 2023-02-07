@@ -26,7 +26,8 @@ export default function ({ reviews }) {
                                         <FaStar className="star_icon" />
                                         <FaStar className="star_icon" />
                                     </div>
-                                </div></div>
+                                </div>
+                            </div>
                         }
                     )
                 }
