@@ -76,9 +76,11 @@
 }
 
 .stay__down {
+    border: 1px solid red;
+    width: 100%;
     position: absolute;
     bottom: 10%;
-    left: 28%;
+    left: 0;
 }
 
 .stay__down__h3 {
