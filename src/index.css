@@ -49,13 +49,12 @@
 }
 
 .stay__up {
+    border: 1px solid red;
     position: absolute;
     width: 100%;
     left: 0;
     top: 20%;
     padding: 0 0.9rem;
-    display: grid;
-    place-items: center;
 }
 
 .stay__up_para {
@@ -76,7 +75,6 @@
 }
 
 .stay__down {
-    border: 1px solid red;
     width: 100%;
     position: absolute;
     bottom: 10%;
