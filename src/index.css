@@ -8,43 +8,32 @@
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 490px) {
-    .star_icon {
-        font-size: 1.41rem;
-    }
-    .reviews__container {
-        padding: 0;
-    }
-    .reviews__div_container {
-        width: 99%;
-    }
-}
-
 .reviews__container {
     width: 100%;
     display: flex;
     justify-content: center;
     text-align: center;
     text-transform: capitalize;
-    padding: 2rem 1rem;
+    padding: 2rem 0;
     background-color: #fafafae8;
 }
 
 .reviews__div_container {
-    width: 98%;
-    padding: 1.5rem 1rem;
+    width: 300px;
+    padding: 1.5rem 0;
     border: 1px solid #dfdfdf8e;
     border-radius: 0.4rem;
-    background-color: #ffffff;
+    background-color: #fff;
     display: grid;
     place-items: center;
     grid-template-columns: repeat(1, 1fr);
-    gap: 25px;
+    gap: 20px;
+    transition: all 0.2s;
 }
 
 .reviews__text {
     text-align: left;
-    width: 93%;
+    width: 90%;
     margin: 0.5rem 0rem;
     color: #000000;
     font: bolder 1.305rem sans-serif;
@@ -52,7 +41,7 @@
 
 .reviews_boxes {
     position: relative;
-    width: 93%;
+    width: 90%;
     height: 360px;
     border: 1px solid #dfdfdf;
     border-radius: 0.4rem;
@@ -105,6 +94,11 @@
     font-size: 1.55rem;
 }
 
+@media screen and (min-width: 450px) {
+    .reviews__div_container {
+        width: 90%;
+    }
+}
 @media screen and (min-width: 576px) {
     .reviews__div_container {
         width: 500px;

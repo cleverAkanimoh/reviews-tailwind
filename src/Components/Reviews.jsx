@@ -4,7 +4,7 @@ import { FaQuoteRight, FaStar } from "react-icons/fa";
 export default function ({ reviews }) {
     return (
         <article className="reviews__container">
-            <div className="border-gray-100 reviews__div_container">
+            <div className="reviews__div_container">
                 <h2 className="reviews__text">our reviews</h2>
                 {
                     reviews.map(
